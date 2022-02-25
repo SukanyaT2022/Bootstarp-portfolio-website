@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="travel.css">
+
+
+
+
+    <title>Top Destination</title>
+
+</head>
+
+
+<body>
+    <!--this is logo and search box-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">DAYOFF+</a>
+    
+          <!--<a class="navbar-brand"><img src="DayOff1.png" height="100px" width="100px"></a> if put picture in logo-->
+          <form class="d-flex">
+            <input class="form-control me-2 search-box" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success button-box" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <!--this is nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--link connect all the pages here-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="travel.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="travel-guides.html">Travel Guids</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="Topdestination.html">Top Destination</a><!--text-dark we use to change text color in bootstrap-->
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="planYourTrip.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plan your trip
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="planYourTrip.html">Plan your trip</a></li>
+                            <li><a class="dropdown-item" href="planYourTrip.html">North</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="planYourTrip.html">South</a></li>
+                          </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="VacationHome.html">Vacation Home</a>
+                    </li>
+
+
+                    </li>
+                    <div class="subscribe"> <a href="#">Subscribe</a></div>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--this is big hero-->
+    <div class="container slidersize">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="pics/bangkok white temple.jpg" height="500px" class="d-block w-100" alt="...">
+                    <!--w- is width-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <!--carousel-caption is class for text-->
+                        <h2>Bangkok</h2>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="pics/hiking activities.jpg" height="500px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Southern Thailand</h2>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="pics/beach bench.jpg" height="500px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Northern Thailand</h2>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--this is text section-->
+    <section>
+        <div class="middle-section">
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, ducimus.</h3>
+            <div class="small-text">
+                <P class="mx-auto"><small> March 2 2022</small></P>
+                <!--mx-auto use for gap left and right equally-->
+            </div>
+            <P class="mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique natus harum molestias
+                libero repudiandae
+                quia, numquam rerum totam, atque ea tempore labore enim vel incidunt blanditiis eveniet! Qui, sed. Culpa
+                vero, ratione unde deleniti iste officiis sint. Possimus iste inventore sapiente error rerum recusandae
+                ex
+                dolorem, dolor modi similique laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique natus harum molestias libero repudiandae
+                quia, numquam rerum totam, atque ea tempore labore enim vel incidunt blanditiis eveniet! Qui, sed. Culpa
+                vero, ratione unde deleniti iste officiis sint. Possimus iste inventore sapiente error rerum recusandae
+                ex
+                dolorem, dolor modi similique laudantium</P>
+        </div>
+
+    </section>
+
+
+    <!--this is middle number2 section-->
+    <section class="middleNo2 container-fluid my-5"> <!--my is margin top and bottom/ gap bet section box-->
+        <!--container fluid no gap left and right-->
+        <div class="card mb-3 mx-auto" style="max-width: 1000px;">
+            <!--main box/section box-->
+            <!--mx auto move main box to center and mb margin bottom can put upt to 5-->
+            <div class="row g-0">
+                <!--g-0 is grid gap 0 mean no gap-->
+                <div class="col-lg-7">
+                    <!--text box-->
+                    <!--col overall combine is only 12/ no more than 12-->
+                    <div class="card-body"> 
+                        <h5 class="card-title p-3">Your next trips</h5> <!--p-3 give padding to title-->
+                        <p class="card-text px-4"><!--px give padding left and right mean space equally-->
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa odit
+                            sapiente ex quaerat obcaecati adipisci quas rem voluptate temporibus sint, rerum soluta
+                            voluptatum deserunt unde, aut necessitatibus, blanditiis ea. Repellendus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <!--picture box// lg for large device-->
+                    <img src="pics/many boats.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--section no3-->
+
+<section class="container-fluid bixbox3 my-5"> <!--my is margin top and bottom/ gap bet section box-->
+    <div class="groupsmallbox"> <!--this div control all small box as a group-->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col-lg-3"> <!--add lg  3/ note total need to be 12 only-->
+          <div class="card tinybox"> <!--tinybox is another class to control size of small box individual-->
+            <img src="pics/bangkok colorful temple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card tinybox">
+            <img src="pics/hiking activities.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card tinybox">
+            <img src="pics/many boats.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card tinybox">
+            <img src="pics/beach.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+</html>

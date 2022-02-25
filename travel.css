@@ -1,0 +1,326 @@
+body,html{
+    overflow-x:hidden ;
+}
+nav{
+    width: 100%;
+}
+/* add picture in logo
+.navbar-brand img{
+    border-radius: 50%;
+}
+logo*/
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+/*search box*/
+.search-box{
+    border-radius: 20px;
+}
+.button-box{
+    border-radius: 20px;
+    background-color: pink;
+}
+
+/*subcribe*/
+.subscribe a{
+   text-decoration: none;
+  color: black;
+  margin-left: 700px;
+   font-weight: bold;
+ 
+
+}
+
+/* beg-hero*/
+.big-hero{
+    height: 500px;
+    width: 100%;
+    background-image: url("pics/beach.jpg");
+   background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.image{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+
+.col{
+ 
+    margin-top: 10px;
+    width: 100%;
+
+}
+.sidebar{
+ 
+  margin-left: 100px;
+}
+/*text on side bar*/
+.col p{
+padding-top: 20px;
+width: 100%;
+margin-left: -10px;
+font-size: 13px;
+
+}
+
+/*summer travel section*/
+.big-box{
+    background-color: bisque;
+padding-bottom: 20px;
+}
+
+
+/* this is middle section*/
+.card img{
+    height: 300px;
+
+}
+
+/*change size  one of the last box to be the same size as other boxes*/
+.changesizebox{
+    height: 415px;
+}
+
+/*footer*/
+footer a{
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+}
+/*email*/
+input[type=email]{
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+
+}
+/*button box*/
+.btn-outline-secondary{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+
+/*travel guid page*/
+
+.big-hero2{
+    background-image: url("pics/map\ pic.jpg");
+    height: 60vh;
+    width: 100%;
+    background-size: cover; /*picture is too big so we put background-size:cover to make all picture fit in big hero box*/
+    background-position: right center ; /*select what part of the picture u want// top botom right left and center*/
+
+}
+/* button on travel guid page*/
+.button-box2{ /*control around box of orange box*/
+    display: flex;
+    align-items: center;
+    justify-content:space-between;/*space bet is for every space is equally---if remove justify all ornage box will stick together*/
+ 
+
+}
+
+.button-box2 button{ /*target only small button orange box*/
+    color: black;
+    width: 200px;
+    padding: 5px 0px; /*adding top and bottom and then left and right*/
+   border: 5px solid rgb(230, 177, 79);
+ 
+}
+
+.card-text{
+    text-align: justify; /*justfy space equal left and right*/
+    
+}
+
+/*move container box by crating another class-move box*/
+
+.movebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* we use colume to make colum align on top and bottom--if use row it will show pic and text side by side*/
+
+}
+
+/* add more gap bet the box or card*/
+
+.card{
+    margin-top: 30px;
+}
+
+
+/*TopDestination page--make slider smaller*/
+.slidersize{
+    width: 900px;
+margin-top: 20px;
+}
+
+/*class for text slider*/
+.carousel-caption{ /*courousel is just a box of slider*/
+ /*background-color: rgba(16, 95, 197, 0.733);*/
+   border-radius: 10px;
+}
+/*change text inside of box slidder*/
+.carousel-caption h2{
+ color: white; 
+ font-weight: bold;
+ font-size: 40px;
+ -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.carousel-caption p{
+    color: white; 
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+   }
+
+
+   /*middle section on topdestination page*/
+
+
+.middle-section{
+    text-align: center;
+    margin-top: 30px;
+}
+.middle-section p{
+width: 50%;
+text-align: justify; /*help put text line up equal both side*/
+
+}
+.small-text p{
+    text-align: center;
+}
+
+/* middle second box*/
+
+.middleNo2{
+background-color: blue;   
+padding: 20px 0px;
+}
+
+/*middle box no3*/
+
+.bixbox3{
+background-color: orange;
+padding: 20px 0px;
+
+
+}
+.groupsmallbox{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.tinybox{
+    height: 400px;
+}
+.tinybox img{ /* change only size of picture*/
+    height: 200px;
+}
+
+
+
+/*vacationHome page*/
+
+.bighero{
+background-color: aqua;
+height: auto;
+
+}
+.bighero h1,h4{
+color:brown ;
+
+}
+
+/* vacation home page - middle 3 section-- try to reduce hight of pic box and text box*/
+
+.reduceHeight {
+    height: 350px;
+
+
+}
+.reduceHeight img{
+height: 350px;
+width: 100%;
+}
+
+
+/*slider section*/
+
+.space-sliderbox{
+  
+width: 20%;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+
+}
+
+/* change slider arrow to black color*/
+
+.carousel-control-prev span{
+    background-color: black;
+}
+
+.carousel-control-next span{
+    background-color: black;
+
+}
+
+/*target picture logo to be the same siz-- add only height--w--100 on html is widthe*/
+.moreclass img{
+height: 200px;
+}
+
+
+.parentbox{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space-sliderbox h3{
+text-align: center;
+}
+
+/*plan your trip page*/
+
+.bighero-plantrip{
+    background-image: url("pics/bighero-plan\ your\ trip-smaller.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover; /*pic si too big --to make pic fit big hero we use cover*/
+    background-position:  center center;
+}
+
+.whitespace-bighero{
+height: auto;
+width: 800px;
+background-color:pink;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-top: -100px; /* margin - is help to this box overlap big hero*/
+
+}
+
+.whitespace-bighero span{
+    color: blue;
+}
+
+/* media queries for travel.html page / fix one of the last box section that smaller to be equal size of other box*/
+/* 768 is ipad mini*/
+/*copy class and change size*/
+@media screen and (max-width: 768px) {
+    .changesizebox{
+        height: 440px;
+    }
+
+} 
