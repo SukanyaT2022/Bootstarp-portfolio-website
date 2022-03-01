@@ -56,6 +56,7 @@ logo*/
     width: 100%;
 
 }
+
 .sidebar{
  
   margin-left: 100px;
@@ -322,5 +323,134 @@ margin-top: -100px; /* margin - is help to this box overlap big hero*/
     .changesizebox{
         height: 440px;
     }
+    .subscribe a{
+  
+       margin-left: 10px; /* if ipad mini we want subcribe to the same line as othre option put 0px*/
+      
+     }
+
+     .boatpic{
+         padding: 0px 20px;
+     }
+/*plan your trip*/
+     .whitespace-bighero{
+         height: 400px;
+        width: 600px;
+        overflow: scroll;
+        /* overflow: hidden; or we can use scroll*/
+        margin-top: -100px; /* margin - is help to this box overlap big hero*/
+        
+        }
+
+        /*vacationhome page--reducesize-pinkbox*/
+        .reduceHeight{
+            padding: 0px ;
+        }
+
+       
 
 } 
+
+/*mobile device size media queries*/
+@media screen and (max-width: 500px) {
+ /*travel.html page--phone size--fix sidebar*/
+    .big-hero{
+        height: 300px;
+    }
+    .sidebar{
+  
+margin-left: -5px;
+      }
+
+      .sidebar img{
+          width:100px ;
+          height:100px ;
+          margin-left: 10px;
+      }
+
+
+      /*text on side bar*/
+      .col p{
+      padding-top: 20px;
+      width: 100%;
+      margin-left: -40px;
+      font-size: 13px;
+      
+      }
+
+ /*travel.html page--phone size--fix sidebar*/
+
+.big-hero2{
+    height: 30vh;
+    width: 100%;
+}
+
+.movebox img{
+    margin-left: 30px;
+}
+
+/*top destination page--phone device*/
+
+.slidersize{
+    width: 400px;
+
+}
+
+.slidersize img{
+    height: 300px;
+     /* becasue we put height in html page so only slider size will not work--have to put img to chnage height*/
+
+}    
+.middle-section{
+    overflow: scroll;
+/*make long text scroll down*/
+height: 300px;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+
+
+.middle-section p{
+width: 80%;
+text-align: justify; /*help put text line up equal both side*/
+
+
+}
+
+/*plan your trip phon size*/
+.whitespace-bighero{
+    height: 300px;
+   width: 350px;
+   overflow: scroll;
+   /* overflow: hidden; or we can use scroll*/
+   margin-top: -100px; /* margin - is help to this box overlap big hero*/
+   
+   }
+
+   .bighero-plantrip{
+  
+    height: 300px;
+    width: 100%;
+    background-size: cover; /*pic si too big --to make pic fit big hero we use cover*/
+    background-position:  center center;
+}
+
+/*vacationHome-page phone size*/
+
+.reduceHeight {
+    height: auto;
+    padding: 0px;
+
+
+}
+.reduceHeight img{
+height: 350px;
+width: 100%;
+}
+
+
+
+
+
+}

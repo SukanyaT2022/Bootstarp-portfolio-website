@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="travel.css">
-
-
 
 
     <title>Top Destination</title>
@@ -167,8 +166,8 @@
             <!--mx auto move main box to center and mb margin bottom can put upt to 5-->
             <div class="row g-0">
                 <!--g-0 is grid gap 0 mean no gap-->
-                <div class="col-lg-7">
-                    <!--text box-->
+                <div class="col-md-12 col-lg-7"> 
+                    <!--text box--col-mad is for opad mini-text-->
                     <!--col overall combine is only 12/ no more than 12-->
                     <div class="card-body"> 
                         <h5 class="card-title p-3">Your next trips</h5> <!--p-3 give padding to title-->
@@ -178,9 +177,9 @@
                             voluptatum deserunt unde, aut necessitatibus, blanditiis ea. Repellendus.</p>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <!--picture box// lg for large device-->
-                    <img src="pics/many boats.jpg" class="img-fluid rounded-start" alt="...">
+                <div class="col-md-12 col-lg-5 boatpic">
+                    <!--picture box// lg for large device  col-mad is for opad mini- pic-->
+                    <img src="pics/many boats.jpg" width="100%" height="auto" class="img-fluid rounded-start" alt="...">
                 </div>
 
             </div>
@@ -193,7 +192,7 @@
     <div class="groupsmallbox"> <!--this div control all small box as a group-->
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
-        <div class="col-lg-3"> <!--add lg  3/ note total need to be 12 only-->
+        <div class="col-md-6 col-lg-3"> <!--add lg  3/ note total need to be 12 only-- col-md-6 for ipad mini for 2 rows each-->
           <div class="card tinybox"> <!--tinybox is another class to control size of small box individual-->
             <img src="pics/bangkok colorful temple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -202,7 +201,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-6 col-lg-3">
           <div class="card tinybox">
             <img src="pics/hiking activities.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -211,7 +210,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-6 col-lg-3">
           <div class="card tinybox">
             <img src="pics/many boats.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -220,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-6 col-lg-3">
           <div class="card tinybox">
             <img src="pics/beach.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -232,14 +231,83 @@
       </div>
 </div>
 
-
-
-
-
-
-
 </section>
 
+<!--this is footer section-->
+
+<section class="">
+    <!-- Footer -->
+    <footer class="bg-warning text-dark text-center text-md-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12 mb-4 mb-md-0">
+            <!--col-md-12 is responsive// mb-4 is margin bottom// mb-md-o is margin bootm 0 on md is mobile device-->
+            <h5 class="text-uppercase">Subscribe</h5>
+
+            <input type="email" placeholder="your email" class="p-3">
+            <button type="button" class="btn btn-outline-secondary">Subscribe</button>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+            <!-- Facebook -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                class="fab fa-instagram"></i></a>
+
+
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Learn More</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-dark">Subcribe</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Contact Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Advertise</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Real Estate</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </section>
 
 
 
