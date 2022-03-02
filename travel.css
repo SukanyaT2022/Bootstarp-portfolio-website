@@ -3,6 +3,7 @@ body,html{
 }
 nav{
     width: 100%;
+    text-transform: capitalize;
 }
 /* add picture in logo
 .navbar-brand img{
@@ -13,6 +14,7 @@ logo*/
 .navbar-brand{
     font-size: 25px;
     font-weight: 700;
+    
 }
 /*search box*/
 .search-box{
@@ -32,6 +34,8 @@ logo*/
  
 
 }
+
+
 
 /* beg-hero*/
 .big-hero{
@@ -177,11 +181,13 @@ margin-top: 20px;
     -webkit-text-stroke-color: black;
 }
 .carousel-caption p{
-    color: white; 
+    color:white; 
     font-size: 24px;
     font-weight: bold;
-    -webkit-text-stroke-width: 2px;
+    background-color: rgba(0, 0, 0, 0.397);
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+   
    }
 
 
@@ -246,14 +252,17 @@ color:brown ;
 /* vacation home page - middle 3 section-- try to reduce hight of pic box and text box*/
 
 .reduceHeight {
-    height: 350px;
-
-
-}
-.reduceHeight img{
-height: 350px;
-width: 100%;
-}
+    padding: 40px;
+    width: 50%;
+    margin: 0px auto;
+   
+  }
+  
+  .reduceHeight1 img{
+  height: 350px;
+  width: 100%;
+  }
+  
 
 
 /*slider section*/
@@ -343,13 +352,35 @@ margin-top: -100px; /* margin - is help to this box overlap big hero*/
         }
 
         /*vacationhome page--reducesize-pinkbox*/
-        .reduceHeight{
-            padding: 0px ;
-        }
-
-       
+        .reduceHeight {
+            padding: 40px;
+            width: 50%;
+            margin: 0px auto;
+           
+          }
+          .reduceHeight1 {
+              width: 50%;
+          }
+          
+          .reduceHeight1 img{
+          height: 450px;
+          width: 100%;
+          }
+          
+       /*vacation home expand  contribute boxes*/
+       .space-sliderbox{
+        width: 30%;
+       }
 
 } 
+
+
+
+
+
+
+
+
 
 /*mobile device size media queries*/
 @media screen and (max-width: 500px) {
@@ -437,20 +468,43 @@ text-align: justify; /*help put text line up equal both side*/
 }
 
 /*vacationHome-page phone size*/
-
-.reduceHeight {
+/*
+.reduceforPhone{
     height: auto;
-    padding: 0px;
-
+    margin: 0px;
 
 }
-.reduceHeight img{
+
+.reduceforPhone h5{
+ margin-top: 150px;
+    padding: 0px;
+   
+
+}
+*/
+
+
+.reduceHeight {
+  padding: 20px;
+  width: 95%;
+  margin: 0px auto;
+ 
+}
+
+.reduceHeight1 img{
 height: 350px;
 width: 100%;
 }
 
+/*vacation home expand  contribute boxes*/
+.space-sliderbox img{
+  height: 100px;
+  width: 50px;
+   
+   }
 
+   .space-sliderbox h3{
+       font-size: 20px;
 
-
-
+   }
 }
