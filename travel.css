@@ -36,6 +36,54 @@ logo*/
 }
 
 
+/*subscribe pop up filling form */
+
+form lable{
+    margin-left: 10px;
+font-weight: bold;
+}
+
+.moveInputBox input[type="text"]{
+    margin-left: 15px;
+    width:300px;
+    height: 50px;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    padding: 0px 30px; /*put padding to move place holder enter your name to center*/
+    margin-top: 20px;
+}
+.moveInputBox input[type="email"]{
+    margin-left: 20px;
+    width:300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+    padding: 0px 30px; /*put padding to move place holder enter your email to center*/
+    margin-top: 20px;
+}
+
+/*change color close button et submit box*/
+.changeColorClose{
+    background-color:blue;
+}
+
+.changeColorSubmit{
+    background-color: aquamarine;
+    color:black;
+}
+/*move subsribe title to center*/
+.modal-header h5{
+margin-left: 200px;
+}
+/*change subscribe button to look round*/
+.changeSubscribeButton{
+    border-radius: 20px;
+
+}
+
+
+
+
 
 /* beg-hero*/
 .big-hero{
